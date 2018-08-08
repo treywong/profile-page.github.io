@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- Links to js and css files go here -->
+		<title>AllRecipe (Bootstrap Demo)</title>
+
+		<!-- Link to CSS file -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	</head>
+
+	<body class="bg-dark">
+		<div>
+			<!--Navigation Bar-->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  	<a class="navbar-brand" href="#"><img src="./images/allrecipes.png" width="80" height="60" alt="allrecipes"></a>
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			  	</button>
+			  	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			    	<ul class="navbar-nav">
+			      		<li class="nav-item active">
+			        		<a class="nav-link" href="#">Highlights <span class="sr-only">(current)</span></a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="#">Subscription</a>
+			      		</li>
+			      		<li class="nav-item dropdown">
+			        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
+			        	<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			          		<a class="dropdown-item" href="#">Rice</a>
+			          		<a class="dropdown-item" href="#">Meat</a>
+			          		<a class="dropdown-item" href="#">Pasta</a>
+			        	</div>
+			      	</li>
+			      	<li class="nav-item active">
+			      		<form class="form-inline">
+    						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  						</form>
+			      	</li>
+			    </ul>
+			  </div>
+			</nav>
+
+			<!--Food Cards-->
+			<article>
+				<div class="card-group">
+				  <div class="card m-3">
+				    <img class="card-img-top" src="./images/lagsana.jpg" alt="Card image cap">
+				    <div class="card-body">
+				      <h5 class="card-title">Classic and Simple Meat Lasagna</h5>
+				      <p class="card-text">"Whole wheat noodles and lean ground beef make this tasty favorite a little lighter."</p>
+				      <p class="card-text"><small class="text-muted">Recipe by:</small> ccb1122</p>
+				      <a href="#" class="card-link"><img src="./images/chef_hat.png" alt="Recipe" class="rounded-circle bg-info w-25"></a>
+				    </div>
+				  </div>
+				  <div class="card m-3">
+				    <img class="card-img-top" src="./images/rice_pilaf.jpg" alt="Card image cap">
+				    <div class="card-body">
+				      <h5 class="card-title">Sarah's Rice Pilaf</h5>
+				      <p class="card-text">"This is a delicious twist to traditional rice."</p>
+				      <p class="card-text"><small class="text-muted">Recipe by:</small> sarahbillings</p>
+				      <a href="#" class="card-link"><img src="./images/chef_hat.png" alt="Recipe" class="rounded-circle bg-info w-25"></a>
+				    </div>
+				  </div>
+				  <div class="card m-3">
+				    <img class="card-img-top" src="./images/steak.jpg" alt="Card image cap">
+				    <div class="card-body">
+				      <h5 class="card-title">Marsala Marinated Skirt Steak</h5>
+				      <p class="card-text">"I was in Santa Monica a few years ago, where I ordered a chicken Parmesan that featured a garlic, rosemary, and Marsala-spiked sauce. I loved the subtle sweetness the wine added to the tomato. For whatever reason, I thought of those flavors while brainstorming a quick skirt steak marinade, and this is what happened. Skirt steak is always great on the grill and doesn't need much help, but I love how this came out."</p>
+				      <p class="card-text"><small class="text-muted">Recipe by:</small> Chef John</p>
+				      <a href="#" class="card-link"><img src="./images/chef_hat.png" alt="Recipe" class="rounded-circle bg-info w-25"></a>
+				    </div>
+				  </div>
+				</div>
+				<div class="card-group">
+				  <div class="card m-3">
+				    <img class="card-img-top" src="./images/banana_bread.jpg" alt="Card image cap">
+				    <div class="card-body">
+				      <h5 class="card-title">Janet's Rich Banana Bread</h5>
+				      <p class="card-text">"This is the moistest banana bread that I have ever tasted. It's also very easy to make!"</p>
+				      <p class="card-text"><small class="text-muted">Recipe by:</small> vjonsson</p>
+				      <a href="#" class="card-link"><img src="./images/chef_hat.png" alt="Recipe" class="rounded-circle bg-info w-25"></a>
+				    </div>
+				  </div>
+				  <div class="card m-3">
+				    <img class="card-img-top" src="./images/curry_potato.jpg" alt="Card image cap">
+				    <div class="card-body">
+				      <h5 class="card-title">Spicy Vegan Potato Curry</h5>
+				      <p class="card-text">"Abundant spices make this better than any restaurant curry I've tasted. :)"</p>
+				      <p class="card-text"><small class="text-muted">Recipe by:</small> MeganLee</p>
+				      <a href="#" class="card-link"><img src="./images/chef_hat.png" alt="Recipe" class="rounded-circle bg-info w-25"></a>
+				    </div>
+				  </div>
+				  <div class="card m-3">
+				    <img class="card-img-top" src="./images/roast_chicken.jpg" alt="Card image cap">
+				    <div class="card-body">
+				      <h5 class="card-title">Roast Chicken with Thyme and Onions</h5>
+				      <p class="card-text">"People are always raving about chicken and rosemary, when I think chicken and fresh thyme is superior. This is so easy it's criminal, and the results are fabulous. I sometimes add four or five bulbs of green garlic if I find it at the farmers' market."</p>
+				      <p class="card-text"><small class="text-muted">Recipe by:</small> SABRINATEE</p>
+				      <a href="#" class="card-link"><img src="./images/chef_hat.png" alt="Recipe" class="rounded-circle bg-info w-25"></a>
+				    </div>
+				  </div>
+				</div>
+			</article>
+		</div>
+
+		<!--Bootstrap Javascript-->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>
+
